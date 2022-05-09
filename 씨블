@@ -1,0 +1,68 @@
+def check() :
+    kor = []
+    eng = []
+    mat = []
+    for i in range(0,10) :
+        kor(ramdom.randrange(1,4))
+        eng(ramdom.randrange(1,4))
+        mat(ramdom.randrange(1,4))
+print("----------------------------------")
+stu1 = []
+stu2 = []
+stu3 = []
+
+for i in range(0,10) :
+    stu1(random.randrange(1,4))
+    stu2(random.randrange(1,4))
+    stu3(random.randrange(1,4))
+o = 0
+
+
+
+while True:
+    print("--------------------")
+    print(" 1 : 채점           ")
+    print(" 2 : 10개의 변수    ")
+    print(" 3 : 구간 합 구하기 ")
+    print(" 4 : 소감           ")
+    print(" 5 : 종료           ")
+    print("--------------------")
+    n = input("n : ")  
+    if n == "1" :
+        print("채점")
+        stu_num = int(stu_num)
+    elif n == "2" :
+        print()
+    elif n == "3" :
+        print()
+    elif n == "4" :
+        print("너무 어려워요 교수넴")
+    elif n == "5" :
+        print("good bye")
+    else :
+        continue
+import random
+
+jung = [1,2,3,4,1,2,3,4,1,2,]
+q = [0,1,2,3,4,5,6,7,8,9]
+print(min(q))
+print(max(q))
+q.sort()
+print(q)
+print(sum(q)/len(q))
+
+
+import random
+even_hap = 0
+for i in range(0,10) :
+    while even_hap == 0 :
+        even_hap = even_hap + i
+        print("%d even_number sum = %d" (i,even_hap))
+        
+odd_hap = 0
+for i in range(0,10) :
+    while odd_hap == 0 :
+        even_hap = odd_hap + i
+        print("%d odd_number sum = %d" (i,odd_hap))
+        
+print("%d even_nember sum, %d odd_number sum = %d" (i,even_hap,odd_hap))
